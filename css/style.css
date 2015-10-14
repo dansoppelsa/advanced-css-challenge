@@ -10,17 +10,16 @@ body {
 }
 
 .jumbotron {
-  width: 100%;
   background-color:#3498db;
 }
 
-.jumbotron h1 {
-  font-size:80px;
+.jumbotron h1, 
+.jumbotron h2 {
   font-weight: 100;
 }
 
-.jumbotron h2 {
-  font-weight: 100;
+.jumbotron h1 {
+  font-size: 80px;
 }
 
 .content {
@@ -33,55 +32,39 @@ body {
   width: 100%;
 }
 
+.features, 
+.resources {
+  float: left;
+  width: 50%;
+}
+
 .features {
-  float:left;
-  width:50%;
   background-color: #9b59b6;
 }
 
-.features-content {
-  padding: 20px;
-}
-
-.features-content ul {
-  color:white;
-  line-height: 30px;
-}
-
-.features-heading {
-  text-decoration: underline;
-  color:white;
-}
-
 .resources {
-  float:left;
-  width: 50%;
   background-color: #2ecc71;
 }
 
-.resources-content {
-  padding: 20px;
+.features .content,
+.resources .content {
+    padding: 20px;
 }
 
-.resources-heading {
-  text-decoration: underline;
+.features .content ul,
+.resources .content ul {
   color:white;
+  line-height: 30px;  
+  text-align: left;
 }
 
-.resources-content ul {
-  color:white;
-  line-height: 30px;
+.features .heading,
+.resources .heading {
+    text-decoration: underline;
+    color: white;
 }
 
-.resources-content ul a {
-  color:white;
-}
-
-.quotes {
-  width: 100%;
-}
-
-.quotes-heading {
+.resources .content ul a {
   color:white;
 }
 
